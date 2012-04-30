@@ -1,0 +1,24 @@
+#header
+{
+	float:left;
+	width:94%;
+	background-color:#999999;
+	font: bold 48px "Times New Roman";
+	padding:3%;
+	text-align:center;
+	clear:both;
+}
+#desc
+{
+	font: 16px arial;
+	float:left;
+	padding:1%;
+	width:20%;
+}
+#imgs
+{
+	padding:1%;
+	float:left;
+	width:75%;
+	background-color:black;
+}

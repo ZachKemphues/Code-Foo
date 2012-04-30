@@ -1,0 +1,42 @@
+Here is my thought process for determining how many ping pong balls it would take to fill an average-sized school bus broken down into steps.
+
+Step 1: Make a baseless guess for fun to see how close it is to my actual estimate
+	-20,000 ping pong balls, although even 100,000 wouldn't be a surprising result
+
+Step 2: Determine what information is needed to make an accurate estimate
+	-How big is a ping pong ball?
+	-How much empty space is there when ping pong balls are packed together?
+	-How big is a bus?
+	-How much empty space is there in a bus?
+
+Step 3: Use the internet to determine the diameter of a standard ping pong ball and calculate its volume
+	-Standard size is 40mm or 1.57 inches (obtained from www.tabletennismaster.com/ping-pong-balls.html)
+	-Calculate volume in cubic feet (4/3*pi*0.785^3 = 2.03 cubic inches = 0.00117 cubic feet)
+
+Step 4: Determine how ping pong balls stack, and how much empty space is between balls
+	-Look up sphere packing on wikipedia
+		-Random close pack seems like the most applicable type of packing when filling a bus with ping pong balls
+		-Of the random close packs, the poured or loose random packings seem best, and 0.60 density will make the math look nicer (obtained from en.wikipedia.org/wiki/Random_close_pack)
+	-This means that only 60% of the total empty space in the bus will be ping pong balls, the remaining 40% will still be empty space
+
+Step 5: Determine the size of an average bus
+	-Google school bus dimensions
+		-Wish I had access to an actual school bus after finding that seat padding dimensions,
+		and seating area length are not at all easy to find online.
+	-Define average to be a 72 student (24 seat) capacity Type C school bus
+	-Make a .jpg in MS Paint detailing all the dimesions I was able to find, including estimates for what I wasn't able to find (indicated in red)
+		-Dimensions used are from www.westernbus.com/user_images/file/SB-VIS-CU-0710.pdf
+		and https://www.dot.ny.gov/divisions/operating/osss/bus-repository/busregs.pdf
+	-Estimate the volume of empty space in the passenger section (1430 cubic feet)
+	-Add the front section (stairs/driver seat) to the .jpg
+	-Estimate the volume of empty space in the front section (93 cubic feet)
+	-Add the sections to get a total of 1620 cubic feet of empty space on a bus
+
+Step 6: Calculate the number of ping pong balls that can fit in that space
+	-Use the packing density from step 4 to get 972 cubic feet of ping pong balls
+	-Use the volume of a ping pong ball from step 3 to get roughly 829,000 ping pong balls
+
+Step 7: Realize how incredibly far off my initial estimate was and double check my math
+	-Find that the math is correct
+
+Step 8: Answer the question "How many ping pong balls would it take to fill an average-sized school bus?" with "Approximately 829,000."

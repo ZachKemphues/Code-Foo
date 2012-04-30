@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylish.css" />
+<title>Sample Webpage</title>
+</head>
+<body style="background-color:#999999;">
+<div id="header">Image Gallery</div>
+<div id="desc">
+Gallery description could go here. <br/>
+<p>
+Praesent vitae est metus, vitae commodo neque. Maecenas iaculis molestie facilisis. Donec scelerisque, ante quis venenatis fringilla, erat sem porta dui, et lacinia nulla libero vehicula ipsum. Maecenas consequat pharetra purus, ut aliquet metus cursus sed. Nam sit amet auctor ipsum. Pellentesque ultrices venenatis mauris at faucibus. Vivamus sed diam eget augue accumsan pellentesque id eget sem. Morbi id malesuada quam. In elementum vehicula tellus ut faucibus. Etiam at ante ut elit commodo feugiat. Integer aliquet, justo nec fringilla hendrerit, lorem enim malesuada massa, at vulputate lorem elit et urna.
+</p>
+</div>
+<div id="imgs">
+<script type="text/javascript">
+	for(i = 0; i < 10; i++) 
+	{
+		document.write("<img src=\"ignlogo.jpg\"/>");	//add a logo to the page
+		document.images[i].style.width = 25*(5+Math.random()*5) + "px";	//resize it to have a width and
+		document.images[i].style.height = 25*(5+Math.random()*5) + "px";	//height between 125px and 250px
+	}
+</script>
+</body>
+</html>
